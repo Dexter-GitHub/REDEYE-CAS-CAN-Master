@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "dsp28x_project.h": "c",
+        "dsp2833x_device.h": "c",
+        "dsp2833x_examples.h": "c",
+        "gpio.h": "c",
+        "component.h": "c",
+        "u_cstring": "c",
+        "sci.h": "c",
+        "proc.h": "c",
+        "stdio.h": "c",
+        "ecan.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

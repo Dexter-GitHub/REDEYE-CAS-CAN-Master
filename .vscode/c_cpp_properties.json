@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "f2833x",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\ti\\ccs1250\\ccs\\tools\\compiler\\ti-cgt-c2000_22.6.1.LTS\\include",
+                "C:\\ti\\c2000\\C2000Ware_5_01_00_00\\device_support\\f2833x\\common\\include",
+                "C:\\ti\\c2000\\C2000Ware_5_01_00_00\\device_support\\f2833x\\headers\\include",
+                "C:\\ti\\c2000\\C2000Ware_5_01_00_00\\device_support\\f2833x\\common\\source",
+                "C:\\ti\\c2000\\C2000Ware_5_01_00_00\\device_support\\f2833x\\headers\\source",
+                "C:\\ti\\c2000\\C2000Ware_5_01_00_00\\device_support\\f2833x\\headers\\cmd",
+                "C:\\ti\\c2000\\C2000Ware_5_01_00_00\\device_support\\f2833x\\common\\cmd",
+                "D:\\workspace\\DSP\\5. EOLT-TS-DSP\\workspace\\EOLT-TS-DSP\\Module\\Inc"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "",
+            "cStandard": "c89",
+            "cppStandard": "c++03",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
