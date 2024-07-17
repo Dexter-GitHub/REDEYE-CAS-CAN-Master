@@ -40,7 +40,7 @@ void main(void)
     EINT;
     ERTM;
 
-    GPIO_WritePin(GPIOB, GPIO_PIN_63, GPIO_PIN_63_VAL, GPIO_PIN_RESET);
+    GPIO_WritePin(GPIOB, GPIO_PIN_63, GPIO_PIN_63_VAL, GPIO_PIN_RESET); /* LED ON */
     
     FOREVER {
         if (true == ECAN_GetIsr()) {
@@ -59,9 +59,9 @@ void main(void)
             compareData = 1;
             j = 7;
             if (status == true) {
-                GPIO_WritePin(GPIOB, GPIO_PIN_63, GPIO_PIN_63_VAL, GPIO_PIN_SET);
+                GPIO_WritePin(GPIOB, GPIO_PIN_63, GPIO_PIN_63_VAL, GPIO_PIN_SET);     /* LED OFF */
                 DELAY_US(1000000);
-                GPIO_WritePin(GPIOB, GPIO_PIN_63, GPIO_PIN_63_VAL, GPIO_PIN_RESET);
+                GPIO_WritePin(GPIOB, GPIO_PIN_63, GPIO_PIN_63_VAL, GPIO_PIN_RESET);   /* LED ON */
                 ECAN_Write(txBuff, 1000);
             }
             else {
